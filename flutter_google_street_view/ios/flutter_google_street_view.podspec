@@ -15,7 +15,7 @@ A Flutter google street view plugin.
   s.source           = { :path => 'https://github.com/zyzdev/flutter_street_view/tree/master/flutter_google_street_view' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'GoogleMaps', '8.0.0'
+  s.dependency 'GoogleMaps', '9.0.0'
   s.static_framework = true
   s.platform = :ios, '9.0'
 
