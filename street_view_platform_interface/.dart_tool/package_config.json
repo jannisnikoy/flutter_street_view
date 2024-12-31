@@ -161,10 +161,10 @@
       "name": "street_view_platform_interface",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     }
   ],
-  "generated": "2024-12-31T08:32:37.937453Z",
+  "generated": "2024-12-31T08:48:04.842848Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///Users/jovanoviccodecave/Development/flutter",

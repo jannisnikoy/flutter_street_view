@@ -170,10 +170,10 @@ packages:
     dependency: transitive
     description:
       name: google_maps
-      sha256: "555d5d736339b0478e821167ac521c810d7b51c3b2734e6802a9f046b64ea37a"
+      sha256: "4d6e199c561ca06792c964fa24b2bac7197bf4b401c2e1d23e345e5f9939f531"
       url: "https://pub.dev"
     source: hosted
-    version: "6.3.0"
+    version: "8.1.1"
   http_multi_server:
     dependency: transitive
     description:
@@ -211,14 +211,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
-  js_wrapping:
-    dependency: transitive
-    description:
-      name: js_wrapping
-      sha256: e385980f7c76a8c1c9a560dfb623b890975841542471eade630b2871d243851c
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.7.4"
   kotlin_scope_function:
     dependency: "direct main"
     description:
@@ -467,10 +459,11 @@ packages:
   street_view_platform_interface:
     dependency: transitive
     description:
-      name: street_view_platform_interface
-      sha256: "0f7a259e95c1192b9054328b1e3591f4867b045ce279dec4e0528f3f999f3ba8"
-      url: "https://pub.dev"
-    source: hosted
+      path: street_view_platform_interface
+      ref: master
+      resolved-ref: cbb36311bf74e793da474a69b85f275488dc4793
+      url: "https://github.com/The-CodeCave/flutter_street_view_cc_fork.git"
+    source: git
     version: "1.0.8"
   string_scanner:
     dependency: transitive
