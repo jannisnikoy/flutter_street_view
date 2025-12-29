@@ -30,6 +30,7 @@ android {
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
+        main.kotlin.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
         minSdkVersion 19
