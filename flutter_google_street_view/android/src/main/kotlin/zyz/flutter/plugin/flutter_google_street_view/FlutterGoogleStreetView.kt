@@ -128,7 +128,7 @@ class FlutterGoogleStreetView(
         } else null
 
     override fun getView(): View {
-        return streetView!!
+        return checkNotNull(streetView) { "streetView is null. StreetView must be initialized before getView() is called." }
     }
 
     override fun dispose() {
@@ -164,7 +164,7 @@ class FlutterGoogleStreetView(
         if (disposed || reuseStreetView) {
             return
         }
-        streetView!!.onStart()
+        streetView?.onStart()
     }
 
     override fun onResume(owner: LifecycleOwner) {

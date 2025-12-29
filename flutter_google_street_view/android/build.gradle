@@ -54,5 +54,5 @@ dependencies {
     def lifecycle_version = "2.2.0"
     implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
     //compileOnly files('libs/flutter.jar')
-    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-maps:19.2.0'
 }
